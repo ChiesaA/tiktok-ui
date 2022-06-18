@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: var(--Display-layout-width);
+    display: flex;
+    margin: var(--Display-layout-header-height);
+}
+.content {
+    flex: 1;
+}
